@@ -1,5 +1,5 @@
 FROM openjdk:17-alpine
-EXPOSE 8081
+EXPOSE 8082
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
 ENV TZ=Asia/Tashkent
